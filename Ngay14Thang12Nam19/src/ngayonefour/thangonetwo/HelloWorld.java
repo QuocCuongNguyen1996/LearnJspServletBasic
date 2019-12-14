@@ -32,8 +32,8 @@ public class HelloWorld extends HttpServlet {
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 		request.setCharacterEncoding("UTF-8");
 		PrintWriter witter=response.getWriter();
-		witter.println("Nguyễn Quốc Cường");
-		witter.println("Quốc Cường Nguyễn");
+		witter.println("Test thử xem có bị gì không????");
+		
 	}
 
 	/**
