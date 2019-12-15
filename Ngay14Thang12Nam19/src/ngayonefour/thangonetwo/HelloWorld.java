@@ -30,9 +30,9 @@ public class HelloWorld extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
-		request.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter witter=response.getWriter();
-		witter.println("Test thử xem có bị gì không????");
+		witter.println("Xin chào đến với Servlet, tôi tên là Nguyễn Quốc Cường");
 		
 	}
 
